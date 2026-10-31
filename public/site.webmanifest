@@ -1,0 +1,25 @@
+{
+  "name": "Bhagavath Safety Nets",
+  "short_name": "Bhagavath",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#4A2C2A",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "start_url": "/"
+}

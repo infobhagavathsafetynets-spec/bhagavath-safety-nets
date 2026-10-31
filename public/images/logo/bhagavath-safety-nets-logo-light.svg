@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 60" width="320" height="60">
+  <defs>
+    <linearGradient id="bhLogoGradL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A2C2A" />
+      <stop offset="100%" stop-color="#2C1816" />
+    </linearGradient>
+    <linearGradient id="bhMustardGradL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0A526" />
+      <stop offset="100%" stop-color="#C48E1B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Stylized 'B' Shield Badge -->
+  <rect x="2" y="5" width="50" height="50" rx="14" fill="#E0A526" />
+  
+  <!-- 'B' letter in badge with espresso fill -->
+  <path d="M 17 18 L 29 18 C 34 18 37 20 37 24 C 37 27 35 29 32 30 C 36 31 39 34 39 38 C 39 42 35 44 29 44 L 17 44 Z M 23 23 L 23 28 L 29 28 C 31 28 32 27 32 25.5 C 32 24 31 23 29 23 Z M 23 33 L 23 39 L 30 39 C 32 39 33 38 33 36 C 33 34 32 33 30 33 Z" fill="#2C1816" />
+  <circle cx="40" cy="14" r="3.5" fill="#FFF4DC" />
+
+  <!-- Brand Typography -->
+  <text x="64" y="27" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">BHAGAVATH</text>
+  <text x="195" y="27" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="18" font-weight="800" fill="#E0A526" letter-spacing="0.5">SAFETY</text>
+  <text x="64" y="45" font-family="'DM Sans', system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#FAF5ED" letter-spacing="2">NETS &amp; INVISIBLE GRILLS</text>
+</svg>

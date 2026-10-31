@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bIconEspresso" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A2C2A" />
+      <stop offset="100%" stop-color="#2C1816" />
+    </linearGradient>
+    <linearGradient id="bIconMustard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0A526" />
+      <stop offset="100%" stop-color="#C48E1B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Squircle in Espresso -->
+  <rect x="16" y="16" width="480" height="480" rx="128" fill="url(#bIconEspresso)" stroke="url(#bIconMustard)" stroke-width="16" />
+
+  <!-- Monogram 'B' in Cream & Mustard -->
+  <path d="M 160 120 L 260 120 C 310 120 350 145 350 190 C 350 220 330 245 295 256 C 345 268 375 298 375 345 C 375 395 330 420 260 420 L 160 420 Z M 215 170 L 215 235 L 260 235 C 285 235 300 225 300 202.5 C 300 180 285 170 260 170 Z M 215 285 L 215 370 L 265 370 C 290 370 315 355 315 327.5 C 315 300 290 285 265 285 Z" fill="#FFF4DC" />
+  <circle cx="390" cy="110" r="32" fill="url(#bIconMustard)" />
+</svg>
