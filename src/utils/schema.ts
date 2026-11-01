@@ -1,38 +1,38 @@
 import { SITE_URL } from "@/utils/constants";
+import { bangaloreAreasList, areasData } from "@/utils/areasData";
 
 export interface SchemaBreadcrumb {
   name: string;
   item: string;
 }
 
-export const CITIES_BANGALORE = [
-  "Koramangala",
-  "Whitefield",
-  "HSR Layout",
-  "Electronic City",
-  "Marathahalli",
-  "Bellandur",
-  "JP Nagar",
-  "BTM Layout",
-  "Hebbal",
-  "Indiranagar",
-];
-
+export const CITIES_BANGALORE = Object.values(areasData).map((a) => a.name);
 export const CITIES_ANDHRA_PRADESH = CITIES_BANGALORE; // Backwards compatibility alias
 
-export const ALL_8_SERVICES = [
+export const ALL_19_SERVICES = [
   "Balcony Safety Nets",
   "Children Safety Nets",
   "Pet Safety Nets",
   "Pigeon Safety Nets",
+  "Monkey Safety Nets",
+  "Cricket Practice Nets",
+  "Sports Netting",
+  "Construction Safety Nets",
   "Duct Area Safety Nets",
+  "Anti-Bird Spikes",
+  "Mosquito Nets for Windows & Balconies",
   "Balcony Invisible Grills",
+  "Children Invisible Grills",
+  "Pet Invisible Grills",
   "Window Invisible Grills",
+  "Staircase & Duplex Invisible Grills",
   "Ceiling Cloth Drying Hangers",
+  "Balcony Cloth Drying Hangers",
+  "Wall Mounted Cloth Hangers",
 ];
 
-export const ALL_19_SERVICES = ALL_8_SERVICES; // Backwards compatibility alias
-export const ALL_18_SERVICES = ALL_8_SERVICES; // Backwards compatibility alias
+export const ALL_8_SERVICES = ALL_19_SERVICES; // Backwards compatibility alias
+export const ALL_18_SERVICES = ALL_19_SERVICES; // Backwards compatibility alias
 
 export function generateOrganizationSchema() {
   return {

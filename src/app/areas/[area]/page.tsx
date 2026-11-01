@@ -35,7 +35,13 @@ export async function generateMetadata({ params }: PageProps) {
     };
   }
 
-  const title = { absolute: `Safety Nets in ${areaDetail.name}, Bengaluru | Bhagavath` };
+  const baseTitle = `Safety Nets in ${areaDetail.name}, Bengaluru | Bhagavath`;
+  const cleanTitle = baseTitle.length <= 60
+    ? baseTitle
+    : `Safety Nets in ${areaDetail.name.replace(" Corridor", "").replace(" (ORR)", "")} | Bhagavath`.length <= 60
+    ? `Safety Nets in ${areaDetail.name.replace(" Corridor", "").replace(" (ORR)", "")} | Bhagavath`
+    : `Safety Nets in ${areaDetail.name.slice(0, 20)} | Bhagavath`;
+  const title = { absolute: cleanTitle };
   const description = `Balcony safety nets, bird netting & SS316 invisible grills installed in ${areaDetail.name}, Bengaluru. Free site visit & ${CLAIMS.warrantyLabel}.`;
 
   return {
@@ -83,10 +89,10 @@ export default async function AreaDetailPage({ params }: PageProps) {
     notFound();
   }
 
-  // Other areas in Bangalore
-  const otherAreas = Object.values(areasData).filter((a) => a.slug !== areaDetail.slug);
+  // Other areas in Bangalore (featured subset for clean sidebar layout)
+  const otherAreas = Object.values(areasData).filter((a) => a.slug !== areaDetail.slug).slice(0, 8);
 
-  // All 8 confirmed services
+  // All confirmed services
   const allServices = Object.values(servicesData);
 
   // Breadcrumb links
@@ -313,6 +319,13 @@ export default async function AreaDetailPage({ params }: PageProps) {
                     <ArrowRight className="w-3.5 h-3.5 text-stone-400" />
                   </Link>
                 ))}
+                <Link
+                  href="/areas"
+                  className="flex items-center justify-center gap-1.5 p-3 mt-3 bg-[#4A2C2A] hover:bg-[#6B4340] text-white rounded-xl text-xs font-bold transition-colors shadow-2xs"
+                >
+                  <span>Explore All 110 Bengaluru Areas</span>
+                  <ArrowRight className="w-3.5 h-3.5" />
+                </Link>
               </div>
             </div>
           </div>

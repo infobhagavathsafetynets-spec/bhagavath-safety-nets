@@ -37,12 +37,7 @@ export const metadata: Metadata = {
 };
 
 export default function SafetyNetsHub() {
-  const safetySolutions = [
-    servicesData["balcony-safety-nets"],
-    servicesData["pigeon-safety-nets"],
-    servicesData["children-safety-nets"],
-    servicesData["pet-safety-nets"],
-  ].filter(Boolean);
+  const safetySolutions = Object.values(servicesData).filter((s) => s.category === "safety-nets");
 
   const hubBreadcrumbs = {
     "@context": "https://schema.org",

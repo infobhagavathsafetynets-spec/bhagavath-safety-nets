@@ -7,14 +7,14 @@ export const metadata: Metadata = {
     absolute: "Service Areas in Bengaluru | Bhagavath Safety Nets",
   },
   description:
-    "Explore our 10 primary service areas in Bengaluru for balcony safety nets, SS316 invisible grills, and cloth hangers. Free doorstep visit.",
+    "Explore our 110 service areas across Bengaluru for balcony safety nets, SS316 invisible grills & cloth hangers. Free doorstep inspection.",
   alternates: {
     canonical: "/areas",
   },
   openGraph: {
     title: "Service Areas in Bengaluru | Bhagavath Safety Nets",
     description:
-      "Explore our 10 primary service areas in Bengaluru for balcony safety nets, SS316 invisible grills, and cloth hangers.",
+      "Explore our 110 service areas across Bengaluru for balcony safety nets, SS316 invisible grills, and cloth hangers.",
     url: "https://bhagavathsafetynets.com/areas",
     images: [
       {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Service Areas in Bengaluru | Bhagavath Safety Nets",
     description:
-      "Explore our 10 primary service areas in Bengaluru for balcony safety nets and invisible wire grills.",
+      "Explore our 110 service areas across Bengaluru for balcony safety nets and invisible wire grills.",
     images: ["/images/og-image.webp"],
   },
 };

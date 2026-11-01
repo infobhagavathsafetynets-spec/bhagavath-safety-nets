@@ -37,11 +37,7 @@ export const metadata: Metadata = {
 };
 
 export default function InvisibleGrillsHub() {
-  const grillSolutions = [
-    servicesData["invisible-grills-balcony"],
-    servicesData["invisible-grills-window"],
-    servicesData["invisible-grills"],
-  ].filter(Boolean);
+  const grillSolutions = Object.values(servicesData).filter((s) => s.category === "invisible-grills");
 
   const hubBreadcrumbs = {
     "@context": "https://schema.org",

@@ -25,16 +25,27 @@ const safetyNetsServices = [
   { name: "Children Safety Nets", href: "/services/children-safety-nets" },
   { name: "Pet Safety Nets", href: "/services/pet-safety-nets" },
   { name: "Pigeon Safety Nets", href: "/services/pigeon-safety-nets" },
+  { name: "Monkey Safety Nets", href: "/services/monkey-safety-nets" },
+  { name: "Cricket Practice Nets", href: "/services/cricket-nets" },
+  { name: "Sports Netting", href: "/services/sports-nets" },
+  { name: "Construction Safety Nets", href: "/services/construction-safety-nets" },
+  { name: "Duct Area Safety Nets", href: "/services/duct-area-safety-nets" },
+  { name: "Anti-Bird Spikes", href: "/services/anti-bird-spikes" },
+  { name: "Mosquito Nets for Windows", href: "/services/mosquito-nets" },
 ];
 
 const invisibleGrillsServices = [
   { name: "Balcony Invisible Grills", href: "/services/balcony-invisible-grills" },
+  { name: "Children Invisible Grills", href: "/services/children-invisible-grills" },
+  { name: "Pet Invisible Grills", href: "/services/pet-invisible-grills" },
   { name: "Window Invisible Grills", href: "/services/window-invisible-grills" },
+  { name: "Staircase Invisible Grills", href: "/services/staircase-invisible-grills" },
 ];
 
 const clothHangersServices = [
-  { name: "Ceiling Cloth Hangers", href: "/services/ceiling-cloth-hangers" },
-  { name: "Balcony Cloth Hangers", href: "/services/balcony-cloth-hangers" },
+  { name: "Ceiling Cloth Drying Hangers", href: "/services/ceiling-cloth-hangers" },
+  { name: "Balcony Cloth Drying Hangers", href: "/services/balcony-cloth-hangers" },
+  { name: "Wall Mounted Cloth Hangers", href: "/services/wall-mounted-cloth-hangers" },
 ];
 
 const navLinks = [

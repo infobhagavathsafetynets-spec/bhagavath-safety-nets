@@ -38,7 +38,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
-  // 3. Dynamic Service Pages (8 client-confirmed services)
+  // 3. Dynamic Service Pages (All 19 services)
   const serviceRoutes = Object.keys(servicesData).map((slug) => ({
     url: `${baseUrl}/services/${slug}`,
     lastModified: new Date(),
@@ -46,7 +46,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
-  // 4. Dynamic Bengaluru Area Hubs (10 curated quality areas)
+  // 4. Dynamic Bengaluru Area Hubs (All 110 Bengaluru areas)
   const areaRoutes = Object.keys(areasData).map((slug) => ({
     url: `${baseUrl}/areas/${slug}`,
     lastModified: new Date(),

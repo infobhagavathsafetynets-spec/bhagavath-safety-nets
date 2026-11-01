@@ -37,9 +37,7 @@ export const metadata: Metadata = {
 };
 
 export default function ClothHangersHub() {
-  const hangerSolutions = [
-    servicesData["ceiling-cloth-hangers"],
-  ].filter(Boolean);
+  const hangerSolutions = Object.values(servicesData).filter((s) => s.category === "cloth-hangers");
 
   const hubBreadcrumbs = {
     "@context": "https://schema.org",

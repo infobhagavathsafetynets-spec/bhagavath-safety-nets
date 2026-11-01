@@ -27,7 +27,12 @@ export async function generateMetadata({ params }: PageProps) {
     };
   }
 
-  const title = { absolute: `${serviceDetail.name} in Bengaluru | Bhagavath` };
+  const titleStr = serviceDetail.title && serviceDetail.title.length <= 60
+    ? serviceDetail.title
+    : `${serviceDetail.name} in Bengaluru | Bhagavath`.length <= 60
+    ? `${serviceDetail.name} in Bengaluru | Bhagavath`
+    : `${serviceDetail.name.split(' ')[0]} in Bengaluru | Bhagavath`;
+  const title = { absolute: titleStr };
   const description = `${serviceDetail.description.slice(0, 110)}... Installed in Bengaluru with ${CLAIMS.warrantyLabel}.`;
 
   return {

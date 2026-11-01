@@ -27,13 +27,18 @@ const verticalClusters = [
     summary:
       "Engineered for high-rise apartment living, toddler security, companion animal safety, and humane bird management across Bengaluru.",
     icon: Shield,
-    services: [
-      servicesData["balcony-safety-nets"],
-      servicesData["children-safety-nets"],
-      servicesData["pet-safety-nets"],
-      servicesData["pigeon-safety-nets"],
-      servicesData["duct-area-safety-nets"],
-    ].filter(Boolean),
+    serviceSlugs: [
+      "balcony-safety-nets",
+      "children-safety-nets",
+      "pet-safety-nets",
+      "pigeon-safety-nets",
+      "monkey-safety-nets",
+      "cricket-nets",
+      "sports-nets",
+      "duct-area-safety-nets",
+      "anti-bird-spikes",
+      "mosquito-nets",
+    ],
   },
   {
     id: "invisible-grills",
@@ -42,10 +47,13 @@ const verticalClusters = [
     summary:
       "Unobstructed panoramic exterior views paired with heavy load-bearing tension for balconies and sliding window casements.",
     icon: Eye,
-    services: [
-      servicesData["balcony-invisible-grills"],
-      servicesData["window-invisible-grills"],
-    ].filter(Boolean),
+    serviceSlugs: [
+      "balcony-invisible-grills",
+      "children-invisible-grills",
+      "pet-invisible-grills",
+      "window-invisible-grills",
+      "staircase-invisible-grills",
+    ],
   },
   {
     id: "cloth-hangers",
@@ -54,9 +62,11 @@ const verticalClusters = [
     summary:
       "Reclaim full floor area on your utility balcony using smooth dual-rope pulley mechanisms and rust-resistant stainless pipes.",
     icon: Settings,
-    services: [
-      servicesData["ceiling-cloth-drying-hangers"],
-    ].filter(Boolean),
+    serviceSlugs: [
+      "ceiling-cloth-hangers",
+      "balcony-cloth-hangers",
+      "wall-mounted-cloth-hangers",
+    ],
   },
 ];
 
@@ -90,7 +100,7 @@ export default function FeaturedServices() {
                   <Icon className="w-3.5 h-3.5 text-[#E0A526]" />
                   <span>{cluster.title}</span>
                   <span className="bg-[#FAF5ED] text-[#4A2C2A] text-[10px] font-bold px-2 py-0.5 rounded-full border border-stone-200">
-                    {cluster.services.length}
+                    {cluster.serviceSlugs.length}
                   </span>
                 </a>
               );
@@ -105,6 +115,7 @@ export default function FeaturedServices() {
         <div className="space-y-16 mt-8">
           {verticalClusters.map((cluster) => {
             const Icon = cluster.icon;
+            const clusterServices = cluster.serviceSlugs.map((slug) => servicesData[slug]).filter(Boolean);
             return (
               <div key={cluster.id} id={cluster.id} className="scroll-mt-24">
                 {/* Header Bar */}
@@ -119,7 +130,7 @@ export default function FeaturedServices() {
                           {cluster.title}
                         </h3>
                         <span className="bg-[#FFF4DC] text-[#4A2C2A] border border-[#E0A526]/40 text-xs font-bold px-2.5 py-0.5 rounded-full">
-                          {cluster.services.length} Services
+                          {clusterServices.length} Services
                         </span>
                       </div>
                       <p className="text-xs sm:text-sm text-[#666666] font-medium mt-1 font-sans">
@@ -140,7 +151,7 @@ export default function FeaturedServices() {
 
                 {/* Service Cards Grid */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                  {cluster.services.map((service, idx) => (
+                  {clusterServices.map((service, idx) => (
                     <motion.div
                       key={service.slug}
                       initial={{ opacity: 0, y: 20 }}

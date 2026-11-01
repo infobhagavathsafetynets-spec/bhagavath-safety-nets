@@ -12,10 +12,14 @@ export default function Footer() {
     { label: "Children Safety Nets", href: "/services/children-safety-nets" },
     { label: "Pet Safety Nets", href: "/services/pet-safety-nets" },
     { label: "Pigeon Safety Nets", href: "/services/pigeon-safety-nets" },
+    { label: "Monkey Safety Nets", href: "/services/monkey-safety-nets" },
+    { label: "Cricket Practice Nets", href: "/services/cricket-nets" },
+    { label: "Duct Area Safety Nets", href: "/services/duct-area-safety-nets" },
+    { label: "Anti-Bird Spikes", href: "/services/anti-bird-spikes" },
     { label: "Balcony Invisible Grills", href: "/services/balcony-invisible-grills" },
     { label: "Window Invisible Grills", href: "/services/window-invisible-grills" },
     { label: "Ceiling Cloth Hangers", href: "/services/ceiling-cloth-hangers" },
-    { label: "Balcony Cloth Hangers", href: "/services/balcony-cloth-hangers" },
+    { label: "Wall Mounted Hangers", href: "/services/wall-mounted-cloth-hangers" },
   ];
 
   const areasList = [

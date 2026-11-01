@@ -23,6 +23,27 @@ This document catalogs every temporary placeholder image currently active on the
 | `bhagavath-ceiling-cloth-hanger-bengaluru-2.webp` | `/services/ceiling-cloth-hangers` | Close-up of nylon pulley and stainless steel tubes | Mechanism photo showing nylon pulleys, ropes, and wall cleat |
 | `bhagavath-balcony-cloth-hanger-bengaluru-1.webp` | `/services/balcony-cloth-hangers` | Ceiling-pulley and foldable drying rack on balcony | Modern apartment balcony with cloth drying hoist system |
 | `bhagavath-balcony-cloth-hanger-bengaluru-2.webp` | `/services/balcony-cloth-hangers` | Stainless drying pipes loaded with laundry | Utility wash alcove with ceiling drying hoist loaded |
+| `bhagavath-monkey-safety-net-bengaluru-1.webp` | `/services/monkey-safety-nets` | Reinforced heavy-gauge monkey safety netting on residential terrace | Real photo of monkey safety net enclosure in Bengaluru |
+| `bhagavath-monkey-safety-net-bengaluru-2.webp` | `/services/monkey-safety-nets` | Multi-story building perimeter monkey barrier | Finished monkey defense netting installation |
+| `bhagavath-cricket-net-bengaluru-1.webp` | `/services/cricket-nets` | Cricket practice pitch netting enclosure with steel wire rigging | High-res photo of rooftop or terrace cricket pitch |
+| `bhagavath-cricket-net-bengaluru-2.webp` | `/services/cricket-nets` | Box cricket net installation on residential grounds | Completed cricket net enclosure |
+| `bhagavath-sports-net-bengaluru-1.webp` | `/services/sports-nets` | High-boundary sports court perimeter netting | Outdoor sports turf netting installation in Bengaluru |
+| `bhagavath-sports-net-bengaluru-2.webp` | `/services/sports-nets` | Multi-sport playground containment netting | School or community sports field perimeter net |
+| `bhagavath-construction-safety-net-bengaluru-1.webp` | `/services/construction-safety-nets` | Dual-layer building construction fall-arrest and debris netting | Multi-story active construction site safety net |
+| `bhagavath-construction-safety-net-bengaluru-2.webp` | `/services/construction-safety-nets` | Industrial debris catchment netting along building perimeter | Active site worker fall protection netting |
+| `bhagavath-duct-area-safety-net-bengaluru-2.webp` | `/services/duct-area-safety-nets` | Vertical building shaft anti-pigeon netting | Multi-floor utility shaft netting installation |
+| `bhagavath-anti-bird-spikes-bengaluru-1.webp` | `/services/anti-bird-spikes` | Stainless steel blunt-tip bird spikes on concrete ledge | Real site installation of bird spikes on window or AC ledge |
+| `bhagavath-anti-bird-spikes-bengaluru-2.webp` | `/services/anti-bird-spikes` | Polycarbonate base bird spikes mounted on parapet wall | Close-up of bird deterrent spikes on residential ledge |
+| `bhagavath-mosquito-net-bengaluru-1.webp` | `/services/mosquito-nets` | Precision insect screening frame on apartment window | Real photo of mosquito screen on sliding UPVC window |
+| `bhagavath-mosquito-net-bengaluru-2.webp` | `/services/mosquito-nets` | Pleated / sliding mosquito netting on balcony door | Balcony insect screen door in residential flat |
+| `bhagavath-children-invisible-grill-bengaluru-1.webp` | `/services/children-invisible-grills` | 2-inch spaced SS316 invisible wire grills on high balcony | Apartment balcony with child-safety invisible grills |
+| `bhagavath-children-invisible-grill-bengaluru-2.webp` | `/services/children-invisible-grills` | High-tensile stainless cables providing toddler containment | Child-proof invisible grills in residential setting |
+| `bhagavath-pet-invisible-grill-bengaluru-1.webp` | `/services/pet-invisible-grills` | Pet-safe invisible wire grills with horizontal cross-stabilizer | Balcony invisible grill with cat/dog enjoying safe view |
+| `bhagavath-pet-invisible-grill-bengaluru-2.webp` | `/services/pet-invisible-grills` | Chew-resistant SS316 wire cables on apartment balcony | Close-up of pet-safe tension cables and fittings |
+| `bhagavath-staircase-invisible-grill-bengaluru-1.webp` | `/services/staircase-invisible-grills` | Floor-to-ceiling vertical wire cables on duplex staircase | Modern duplex villa staircase with vertical wire grills |
+| `bhagavath-staircase-invisible-grill-bengaluru-2.webp` | `/services/staircase-invisible-grills` | Architectural interior atrium void safety cables | Interior stair void invisible wire installation |
+| `bhagavath-wall-cloth-hanger-bengaluru-1.webp` | `/services/wall-mounted-cloth-hangers` | Foldable stainless steel wall-mounted laundry drying rack | Utility balcony with wall-mounted drying rack installed |
+| `bhagavath-wall-cloth-hanger-bengaluru-2.webp` | `/services/wall-mounted-cloth-hangers` | Accordion drying rack pulled outward with clothes | Wall drying rack folded flat against tile wall |
 | `bhagavath-mesh-material-demo-bengaluru-1.webp` | `/about`, Pricing, Inspection Guides | High-density virgin copolymer netting bundle | Physical material demo showing netting coil and sample box |
 | `bhagavath-wire-cable-demo-bengaluru-1.webp` | `/about`, Pricing, Inspection Guides | Marine SS316 stainless cable cross-section | Physical sample kit showing SS316 wire and track section |
 | `bhagavath-pulley-hardware-demo-bengaluru-1.webp` | `/about`, Pricing, Inspection Guides | Stainless mounting fasteners, anchors, and brackets | Stainless expansion bolts, nylon pulleys, and hardware kit |

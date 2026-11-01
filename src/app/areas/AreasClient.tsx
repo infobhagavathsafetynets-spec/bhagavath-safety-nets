@@ -49,10 +49,10 @@ export default function AreasClient() {
             <span>Bengaluru Coverage • Free Doorstep Inspection</span>
           </div>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#2C1816] tracking-tight leading-tight">
-            Our 10 Key Service Areas in Bengaluru
+            Our 110 Service Areas in Bengaluru
           </h1>
           <p className="mt-3 text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
-            Bhagavath Safety Nets operates dedicated mobile installation teams across 10 major residential and tech hubs in Bengaluru. Headquartered in Koramangala, we provide complimentary on-site measurements and certified installations backed by our {CLAIMS.warrantyLabel}.
+            Bhagavath Safety Nets operates dedicated mobile installation teams across 110 residential and commercial neighborhoods in Bengaluru. Headquartered in Koramangala, we provide complimentary on-site measurements and certified installations backed by our {CLAIMS.warrantyLabel}.
           </p>
         </div>
 

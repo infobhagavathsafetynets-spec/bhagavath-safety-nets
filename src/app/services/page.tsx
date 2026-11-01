@@ -62,7 +62,7 @@ export default function ServicesPage() {
     },
     {
       id: "cloth-hangers",
-      label: `Cloth Drying Hoists (${totalHangerCount} Service)`,
+      label: `Cloth Drying Systems (${totalHangerCount} Services)`,
       icon: <Settings className="w-5 h-5 text-[#E0A526]" />,
       summary: "Ceiling-mounted pulley mechanisms and stainless drying pipes engineered to maximize balcony floor space utility.",
       items: activeCatalog.filter((item) => item.category === "cloth-hangers"),

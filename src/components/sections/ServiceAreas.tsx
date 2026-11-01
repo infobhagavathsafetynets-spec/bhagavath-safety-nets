@@ -31,7 +31,7 @@ export default function ServiceAreas() {
                 href="/areas"
                 className="inline-flex items-center gap-2 bg-[#4A2C2A] hover:bg-[#6B4340] text-white text-xs font-bold px-6 py-3 rounded-full transition-all shadow-md group cursor-pointer"
               >
-                <span>View All 10 Service Areas</span>
+                <span>View All 110 Service Areas</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Link>
             </div>
@@ -40,7 +40,7 @@ export default function ServiceAreas() {
           {/* Bengaluru Areas Cards Grid (Right) */}
           <div className="lg:col-span-8 bg-white rounded-3xl p-6 sm:p-8 shadow-sm border border-stone-200">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
-              {areasList.map((area, index) => (
+              {areasList.slice(0, 10).map((area, index) => (
                 <motion.div
                   key={area.slug}
                   initial={{ opacity: 0, y: 10 }}
