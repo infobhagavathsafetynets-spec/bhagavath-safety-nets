@@ -50,13 +50,9 @@ export const metadata: Metadata = {
   ],
   metadataBase: new URL(SITE_URL),
   manifest: "/site.webmanifest",
-  ...(SEARCH_CONSOLE_VERIFICATION
-    ? {
-        verification: {
-          google: SEARCH_CONSOLE_VERIFICATION,
-        },
-      }
-    : {}),
+  verification: {
+    google: "VCYBi4SFvPqOOSHzVR7GJnj30WHh7w35YhdJpt9TZ8A",
+  },
   alternates: {
     canonical: "/",
   },
@@ -111,9 +107,7 @@ export default function RootLayout({
         <link rel="icon" type="image/svg+xml" href="/icon.svg" />
         <link rel="apple-touch-icon" href="/apple-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        {SEARCH_CONSOLE_VERIFICATION && (
-          <meta name="google-site-verification" content={SEARCH_CONSOLE_VERIFICATION} />
-        )}
+        <meta name="google-site-verification" content="VCYBi4SFvPqOOSHzVR7GJnj30WHh7w35YhdJpt9TZ8A" />
       </head>
       <body
         className={`${plusJakartaSans.variable} ${dmSans.variable} antialiased bg-white text-[#3A3A3A] flex flex-col min-h-screen selection:bg-[#E0A526] selection:text-[#1A1A1A]`}

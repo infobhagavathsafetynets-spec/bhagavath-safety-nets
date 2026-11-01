@@ -6,7 +6,7 @@
 
 export const GA4_ID = process.env.NEXT_PUBLIC_GA4_ID || "";
 export const ADS_ID = process.env.NEXT_PUBLIC_ADS_ID || "";
-export const SEARCH_CONSOLE_VERIFICATION = process.env.NEXT_PUBLIC_SEARCH_CONSOLE_VERIFICATION || "";
+export const SEARCH_CONSOLE_VERIFICATION = process.env.NEXT_PUBLIC_SEARCH_CONSOLE_VERIFICATION || "VCYBi4SFvPqOOSHzVR7GJnj30WHh7w35YhdJpt9TZ8A";
 
 declare global {
   interface Window {
