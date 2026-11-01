@@ -1052,3 +1052,4 @@ export const allServicesList = Object.values(servicesData);
 
 fs.writeFileSync(path.join(__dirname, '../src/utils/servicesData.ts'), servicesDataCode);
 console.log('Successfully written servicesData.ts with all 19 services!');
+

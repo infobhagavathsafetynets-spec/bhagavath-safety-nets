@@ -33,3 +33,4 @@ console.log('Top 20 overlapping shingles in Areas Data:');
 sorted.slice(0, 20).forEach(([sh, count]) => {
   console.log(`${count}x: "${sh}"`);
 });
+

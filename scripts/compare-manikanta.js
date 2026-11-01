@@ -42,3 +42,4 @@ const mImages = [...mServicesContent.matchAll(/image:\s*"([^"]+)"/g)].map(m => m
 mImages.forEach((img, i) => console.log(`  ${mServiceMatches[i] || i}: ${img}`));
 
 console.log('='.repeat(70));
+

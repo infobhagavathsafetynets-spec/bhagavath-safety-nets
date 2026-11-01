@@ -39,3 +39,4 @@ sorted.slice(0, 30).forEach(([sh, count]) => {
   const firstWord = sh.split(' ')[0];
   console.log(`${count}x: "${sh}"`);
 });
+

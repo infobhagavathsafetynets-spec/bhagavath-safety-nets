@@ -24,3 +24,4 @@ const services = serviceBlocks.map(block => {
 });
 
 console.log(JSON.stringify(services, null, 2));
+

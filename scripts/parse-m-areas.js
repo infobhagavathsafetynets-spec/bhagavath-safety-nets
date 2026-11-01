@@ -16,3 +16,4 @@ if (traitMatches.length > 0) {
     landmarks: traitMatches[0][4].replace(/["\s]/g, '').split(',')
   });
 }
+
