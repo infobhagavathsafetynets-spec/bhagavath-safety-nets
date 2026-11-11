@@ -34,8 +34,8 @@ export function ServiceHero({
   image,
 }: ServiceHeroProps) {
   return (
-    <section className="relative bg-[#2C1816] text-white overflow-hidden py-16 lg:py-28">
-      {/* Visual Scrim Layer */}
+    <section className="relative bg-slate-950 text-white overflow-hidden py-16 lg:py-28">
+      {/* Visual Scrim Layer: Reduced color tint so real installation images are crisp, natural, and clearly visible */}
       <div className="absolute inset-0 z-0">
         <Image
           src={image}
@@ -43,10 +43,10 @@ export function ServiceHero({
           fill
           priority
           sizes="100vw"
-          className="object-cover filter brightness-90 contrast-105"
+          className="object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#2C1816]/95 via-[#2C1816]/80 to-transparent pointer-events-none" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#2C1816]/90 via-transparent to-black/30 pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent sm:via-black/20 pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20 pointer-events-none" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

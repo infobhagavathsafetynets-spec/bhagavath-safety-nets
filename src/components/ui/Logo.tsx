@@ -41,13 +41,13 @@ export default function Logo({
       className={`flex items-center select-none group transition-opacity hover:opacity-95 ${className}`}
       aria-label="Bhagavath Safety Nets Home"
     >
-      <div className="relative h-10 sm:h-12 w-auto flex items-center">
+      <div className="relative flex items-center">
         <Image
-          src={light ? "/images/logo/bhagavath-safety-nets-logo-light.svg" : "/images/logo/bhagavath-logo-PLACEHOLDER.svg"}
-          alt="Bhagavath Safety Nets"
-          width={240}
-          height={48}
-          className="h-10 sm:h-11 w-auto object-contain"
+          src="/images/logo/bhagavath-logo.webp"
+          alt="Bhagavath Safety Nets - Safety Nets and Invisible Grills in Bengaluru"
+          width={320}
+          height={95}
+          className="h-[46px] sm:h-[52px] md:h-[58px] lg:h-[62px] w-auto max-w-[210px] sm:max-w-[250px] md:max-w-none object-contain transition-transform duration-200 group-hover:scale-[1.02]"
           priority
         />
       </div>

@@ -91,8 +91,8 @@ export default function HeroCarousel() {
   const slide = slides[current];
 
   return (
-    <section className="relative min-h-[580px] sm:min-h-[640px] md:min-h-[700px] bg-[#2C1816] overflow-hidden flex items-center">
-      {/* Background Image Carousel with Smooth Fade */}
+    <section className="relative min-h-[580px] sm:min-h-[640px] md:min-h-[700px] bg-slate-950 overflow-hidden flex items-center">
+      {/* Background Image Carousel with Smooth Fade & Reduced Tint for Clear Visibility */}
       {slides.map((s, idx) => {
         const isVisible = idx === current;
         const shouldLoadImage = idx === 0 || isVisible || Math.abs(idx - current) <= 1;
@@ -112,12 +112,12 @@ export default function HeroCarousel() {
                 priority={idx === 0}
                 sizes="100vw"
                 className="object-cover object-center"
-                quality={75}
+                quality={85}
               />
             )}
-            {/* Espresso Gradient Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-r from-[#2C1816]/90 via-[#4A2C2A]/50 to-transparent sm:via-[#2C1816]/40" />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#2C1816]/80 via-transparent to-black/30" />
+            {/* Clean Natural Scrim Overlay: Reduced color tint so real installation images are crisp, natural, and clearly visible to customers */}
+            <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/35 to-transparent sm:via-black/20" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20" />
           </div>
         );
       })}

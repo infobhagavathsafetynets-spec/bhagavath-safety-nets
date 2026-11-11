@@ -40,7 +40,7 @@ export function generateOrganizationSchema() {
     "@type": "Organization",
     "name": "Bhagavath Safety Nets",
     "url": SITE_URL,
-    "logo": `${SITE_URL}/images/logo/bhagavath-safety-nets-logo-light.svg`,
+    "logo": `${SITE_URL}/images/logo/bhagavath-logo.webp`,
     "image": `${SITE_URL}/images/og-image.webp`,
     "contactPoint": [
       {
@@ -80,7 +80,7 @@ export function generateLocalBusinessSchema(areaName?: string) {
     "telephone": "+91 99005 52179",
     "email": "info.bhagavathsafetynets@gmail.com",
     "image": `${SITE_URL}/images/og-image.webp`,
-    "logo": `${SITE_URL}/images/logo/bhagavath-safety-nets-logo-light.svg`,
+    "logo": `${SITE_URL}/images/logo/bhagavath-logo.webp`,
     "priceRange": "₹₹",
     "address": {
       "@type": "PostalAddress",

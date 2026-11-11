@@ -91,7 +91,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Services Quick View (8 client-confirmed services) */}
+          {/* Services Quick View */}
           <div>
             <h3 className="text-white font-extrabold text-base mb-6 tracking-wide relative after:content-[''] after:absolute after:bottom-[-8px] after:left-0 after:w-12 after:h-0.5 after:bg-[#E0A526]">
               Our Services

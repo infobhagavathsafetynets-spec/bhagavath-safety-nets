@@ -116,7 +116,7 @@ export default function ServicesPage() {
             Balcony Safety Nets &amp; Invisible Grills in Bengaluru
           </h1>
           <p className="text-[#666666] text-sm sm:text-base leading-relaxed font-sans">
-            Browse our 8 confirmed residential installations across Bengaluru. Backed by complimentary laser measurements, physical material samples, and our official {CLAIMS.warrantyLabel} card.
+            Browse our 19 verified residential installations across Bengaluru. Backed by complimentary laser measurements, physical material samples, and our official {CLAIMS.warrantyLabel} card.
           </p>
         </div>
 
