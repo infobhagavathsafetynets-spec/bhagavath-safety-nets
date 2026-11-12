@@ -4,6 +4,7 @@
  * Emits required GA4 / GTM events: phone_click, whatsapp_click, form_submit
  */
 
+export const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID || "GTM-5QW9WHMW";
 export const GA4_ID = process.env.NEXT_PUBLIC_GA4_ID || "";
 export const ADS_ID = process.env.NEXT_PUBLIC_ADS_ID || "";
 export const SEARCH_CONSOLE_VERIFICATION = process.env.NEXT_PUBLIC_SEARCH_CONSOLE_VERIFICATION || "VCYBi4SFvPqOOSHzVR7GJnj30WHh7w35YhdJpt9TZ8A";

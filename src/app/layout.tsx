@@ -8,7 +8,7 @@ import SideFloatingContact from "@/components/shared/SideFloatingContact";
 import CookieConsent from "@/components/ui/CookieConsent";
 import { generateLocalBusinessSchema } from "@/utils/schema";
 import { SITE_URL } from "@/utils/constants";
-import { GA4_ID, ADS_ID, SEARCH_CONSOLE_VERIFICATION } from "@/utils/analytics";
+import { GTM_ID, GA4_ID, ADS_ID, SEARCH_CONSOLE_VERIFICATION } from "@/utils/analytics";
 import "./globals.css";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
@@ -112,6 +112,41 @@ export default function RootLayout({
       <body
         className={`${plusJakartaSans.variable} ${dmSans.variable} antialiased bg-white text-[#3A3A3A] flex flex-col min-h-screen selection:bg-[#E0A526] selection:text-[#1A1A1A]`}
       >
+        {/* Google Tag Manager (noscript fallback) */}
+        {GTM_ID && (
+          <noscript>
+            <iframe
+              src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+              height="0"
+              width="0"
+              style={{ display: "none", visibility: "hidden" }}
+            />
+          </noscript>
+        )}
+
+        {/* Google Tag Manager (GTM-5QW9WHMW) */}
+        {GTM_ID && (
+          <>
+            <Script
+              id="gtm-script"
+              strategy="afterInteractive"
+              src={`https://www.googletagmanager.com/gtm.js?id=${GTM_ID}`}
+            />
+            <Script
+              id="google-tag-init"
+              strategy="afterInteractive"
+              dangerouslySetInnerHTML={{
+                __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  window.dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                `,
+              }}
+            />
+          </>
+        )}
+
         {/* LocalBusiness JSON-LD Schema */}
         <Script
           id="local-business-schema"
